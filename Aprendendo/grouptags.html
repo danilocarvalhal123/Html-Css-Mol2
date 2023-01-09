@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: azure;
+            margin: 0px;
+        }
+        header{
+            
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: rgb(202, 137, 137);
+            padding: 3px;
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(134, 117, 117);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: 10px;
+
+        }
+        article{
+            background-color: rgb(134, 117, 117);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: chartreuse;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabeçalho"> 
+    <h1>Meu site</h1>
+    <nav id="menu">
+        
+        <li><a href="link">primeiro</a></li>
+        <li><a href="link">segundo</a></li>
+        <li><a href="link">terceiro</a></li>
+        <li><a href="link">quarto</a></li>
+        
+    </nav>
+    </header>
+    <main id="principal"> 
+        <section id="assuntos">
+
+        </section>
+        <section id="Notícias">
+            <article id="tegSemantica"> 
+                <h2>Diário Oficial</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit architecto fuga pariatur voluptatibus animi natus dolore? Aspernatur quam iusto doloremque, error nobis repellendus unde voluptatem delectus labore quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nemo cupiditate voluptate fugiat fugit? Saepe necessitatibus, excepturi odio ipsa deleniti illum dolore tempore labore! Tenetur nemo deleniti veritatis praesentium labore!</p>
+                <aside id="ConteudoPeriferico"> 
+                        <p>Artigo escrito por blablaka</p>
+                </aside>
+            </article>
+        </section>
+    <footer id="rodape"> 
+    <p>Desenvolvido por Danilo</p>
+    </footer>
+</body>
+</html>
